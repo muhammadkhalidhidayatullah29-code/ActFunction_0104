@@ -22,5 +22,12 @@ int luasPersegiP(int a, int b){
 }
 
 void output(){
-    count << "Hasilnya = " << luasPersegiP(p, l) << endl;
+    cout << "Hasilnya = " << luasPersegiP(p, l) << endl;
+    cout << "Terima Kasih " << endl;
 }
+
+int main() {
+    input();
+    output();
+    cout << "Hasil Penjumlahan = " << jumlah(p, l, 30.25);
+} //selesai
