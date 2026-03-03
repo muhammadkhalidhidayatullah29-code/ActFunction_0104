@@ -21,3 +21,8 @@ void output() {
     cout << "Hasilnya = " << luasPersegi() << endl;
     cout << "Terima Kasih!" << endl;
 }
+
+int main() {
+    input();
+    output();
+} //selesai
